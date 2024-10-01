@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-friday"
+  annotations:
+    "humanitec.com/orgId": "demo-humanitec"
+    "humanitec.com/appId": "nodejs-friday"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
